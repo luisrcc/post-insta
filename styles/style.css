@@ -1,32 +1,25 @@
 body{
-    background-color: grey;
+    background-color: black;
 }
 #main{
     font-family: 'Roboto', sans-serif;
 }
-.navBar{
-    max-height: 15%;
-    background-color: white;
-    text-align: center;
-}
 
 .cardPost{
     width: 500px;
-    height: 600px;
+    height: 650px;
     background-color: white;
     margin: 30px auto;
+    border-radius: 1%;;
 }
 
-.postNumber{
-    padding: 5px;
+.fa-instagram{
+    margin: 10px;
 }
-.page{
-    padding: 5px;
-    color: blue;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    ;
+
+.fa-ellipsis-vertical{
+    float: right;
+    margin: 10px;
 }
 
 .img{
@@ -36,12 +29,16 @@ body{
 }
 
 .icons{
-    padding: 5px;
+    padding: 10px;
 }
 
 
 .fa-bookmark{
     float: right;
+}
+
+.liked{
+    margin: 10px;
 }
 
 .comment{
